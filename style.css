@@ -320,6 +320,11 @@ a:hover {
     background-image: url("../img/detroit-map.jpg");
 }
 
+#work5 {
+    background-image: url("../img/DIAL.png");
+    background-position: top;
+}
+
 /* WORK */
 .port-container.work a {
     height: 400px;
@@ -537,4 +542,18 @@ a:hover {
     #picofme {
         width: 100%;
     }
+}
+
+.bottom-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.bottom-gallery img {
+    max-width: 230px;
+    height: auto;
+    border-radius: 8px;
 }
